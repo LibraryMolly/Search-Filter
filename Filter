@@ -1,0 +1,23 @@
+<!-- Control buttons -->
+<input type="radio" onclick="filterSelection('all')" name="category" checked> Show all
+<input type="radio" onclick="filterSelection('cars')" name="category"> Cars
+<input type="radio" onclick="filterSelection('animals')" name="category"> Animals
+<input type="radio" onclick="filterSelection('fruits')" name="category"> Fruits
+<input type="radio" onclick="filterSelection('colors')" name="category"> Colors
+
+<!-- The filterable elements. Note that some have multiple class names (this can be used if they belong to multiple categories) -->
+<div class="container">
+  <div class="filterDiv cars">BMW</div>
+  <div class="filterDiv colors fruits">Orange</div>
+  <div class="filterDiv cars">Volvo</div>
+  <div class="filterDiv colors">Red</div>
+  <div class="filterDiv cars animals">Mustang</div>
+  <div class="filterDiv colors">Blue</div>
+  <div class="filterDiv animals">Cat</div>
+  <div class="filterDiv animals">Dog</div>
+  <div class="filterDiv fruits">Melon</div>
+  <div class="filterDiv fruits animals">Kiwi</div>
+  <div class="filterDiv fruits">Banana</div>
+  <div class="filterDiv fruits">Lemon</div>
+  <div class="filterDiv animals">Cow</div>
+</div>
